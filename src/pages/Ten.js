@@ -9,11 +9,21 @@ class Ten extends React.Component {
   }
   render() {
     return (
-      <div className="seven">
-        <h1> Lifecycle methods Demo </h1>
-        <br /> <br />
-        <h2> Current time is : {this.state.date.toLocaleTimeString()}</h2>
-      </div>
+      <>
+        {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+        <a
+          href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Ten.js"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+        <div className="seven">
+          <h1> Lifecycle methods Demo </h1>
+          <br /> <br />
+          <h2> Current time is : {this.state.date.toLocaleTimeString()}</h2>
+        </div>
+      </>
     );
   }
   componentDidMount() {

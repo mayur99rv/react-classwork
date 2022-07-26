@@ -9,11 +9,21 @@ class Eight extends React.Component {
   };
   render() {
     return (
-      <div className="eight">
-        <h1>setState demo</h1> <br />
-        <h2>My name is : {this.state.name}</h2>
-        <button onClick={() => this.updateName()}>Update Name</button>
-      </div>
+      <>
+        {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+        <a
+          href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Eight.js"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+        <div className="eight">
+          <h1>setState demo</h1> <br />
+          <h2>My name is : {this.state.name}</h2>
+          <button onClick={() => this.updateName()}>Update Name</button>
+        </div>
+      </>
     );
   }
 }

@@ -1,6 +1,14 @@
 function Two() {
   return (
     <>
+      {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+      <a
+        href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Two.js"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Code
+      </a>
       <div>
         <h1
           style={{

@@ -2,11 +2,21 @@ import React from "react";
 class Three extends React.Component {
   render() {
     return (
-      <div style={{ backgroundColor: "beige" }}>
-        <First />
-        <br />
-        <Second />
-      </div>
+      <>
+        {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+        <a
+          href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Three.js"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+        <div style={{ backgroundColor: "beige" }}>
+          <First />
+          <br />
+          <Second />
+        </div>
+      </>
     );
   }
 }

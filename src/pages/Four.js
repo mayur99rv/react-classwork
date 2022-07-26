@@ -22,6 +22,14 @@ class Four extends React.Component {
           marginTop: "10vh",
         }}
       >
+        {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+        <a
+          href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Four.js"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
         <DisplayName />
         <ul>
           {this.state.data.map((item) => (

@@ -8,9 +8,19 @@ class Seven extends React.Component {
 
   render() {
     return (
-      <div className="seven">
-        <StateToProps date={this.state.data} />
-      </div>
+      <>
+        {/* // eslint-disable-next-line react/jsx-no-target-blank */}
+        <a
+          href="https://github.com/mayur99rv/react-classwork/blob/master/src/pages/Seven.js"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+        <div className="seven">
+          <StateToProps date={this.state.data} />
+        </div>
+      </>
     );
   }
 }
